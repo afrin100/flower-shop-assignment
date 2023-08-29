@@ -1,0 +1,14 @@
+/* header style */
+.header{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    width: 500px;
+}
+.header-section{
+    width: 50%;
+}
+.header {
+    padding: 150px;
+}
