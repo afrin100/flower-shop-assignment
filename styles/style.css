@@ -202,9 +202,33 @@ main section {
 .subscribe-title {
     color: #272727;
     text-align: center;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
+    font-size: 30px;
     font-weight: 800;
-    line-height: normal;
+}
+
+.subscribe-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form input {
+    border-radius: 8px;
+    background: #FFF;
+   border: none;
+   padding: 20px 43px;
+   margin-right: 20px;
+   width: 400px;
+}
+.form button{
+    padding: 15px 30px;
 }
