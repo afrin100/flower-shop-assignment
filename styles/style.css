@@ -224,11 +224,42 @@ main section {
 .form input {
     border-radius: 8px;
     background: #FFF;
-   border: none;
-   padding: 20px 43px;
-   margin-right: 20px;
-   width: 400px;
+    border: none;
+    padding: 20px 43px;
+    margin-right: 20px;
+    width: 400px;
 }
-.form button{
+
+.form button {
     padding: 15px 30px;
+}
+
+/* footer section */
+footer {
+    margin-top: 130px;
+    text-align: center;
+    background: #111010;
+    color: #FFF;
+    padding: 100px;
+}
+
+footer p {
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;  
+    font-size: 15px;  
+    font-weight: 400; 
+}
+
+footer h3 {
+    color: #E55473;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+footer h3 span {
+    color: #FFF;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
 }
