@@ -54,7 +54,7 @@ body {
 
 /* main section */
 main {
-    width: 1140px;
+    /* width: 1140px; */
     margin: 0 auto;
 }
 
@@ -82,7 +82,7 @@ main section {
 
 #pink {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background-color: rgb(255, 240, 196);
 }
 
 #purple {
@@ -92,7 +92,7 @@ main section {
 
 #yellow {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    background: rgba(167, 33, 98, 0.15);
 }
 
 .feature-column {
@@ -114,8 +114,70 @@ main section {
     font-weight: 400;
     margin-top: 15px;
 }
-.feature-title{
+
+.feature-title {
     color: #272727;
     font-weight: 800;
     font-size: 40px;
+}
+
+/* sign up style */
+.sign-up-container img {
+    width: 250px;
+    padding-right: 150px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 200px;
+    background-color:rgba(243, 0, 53, 0.1);
+
+    
+}
+
+.sign-up-info {
+    width: 50%;
+    padding: 100px 80px;
+}
+
+.sign-up-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.sign-up-title span {
+    color: #E55473;
+}
+
+.sign-up-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   margin:24px;
+}
+/* instagram */
+.insta-section{
+    text-align: center;
+}
+.insta-title {
+    color: #272727;
+    font-weight: 800;
+    font-size: 40px;
+}
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.insta-img img{
+    margin-top: 40px;
+   margin-right: 24px;
 }
