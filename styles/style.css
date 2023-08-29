@@ -133,9 +133,9 @@ main section {
     align-items: center;
     text-align: center;
     gap: 200px;
-    background-color:rgba(243, 0, 53, 0.1);
+    background-color: rgba(243, 0, 53, 0.1);
 
-    
+
 }
 
 .sign-up-info {
@@ -159,17 +159,21 @@ main section {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-   margin:24px;
+    margin: 24px;
 }
+
 /* instagram */
-.insta-section{
+.insta-section {
     text-align: center;
+
 }
+
 .insta-title {
     color: #272727;
     font-weight: 800;
     font-size: 40px;
 }
+
 .insta-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -177,7 +181,30 @@ main section {
     font-weight: 400;
     margin-top: 15px;
 }
-.insta-img img{
+
+.insta-img img {
     margin-top: 40px;
-   margin-right: 24px;
+    margin-right: 24px;
+    margin-bottom: 130px;
+    width: 250px;
+}
+
+/* subscribe style */
+.subscribe-info {
+    text-align: center;
+    background-image: url('../images/Rectangle\ 9.png');
+    width: 1140px;
+    padding: 60px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.subscribe-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
